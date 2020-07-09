@@ -22,6 +22,8 @@ const Description = styled.p`
 `
 
 const NameHeader = styled.h1`
+  font-family: "Grenze Gotisch", cursive;
+  font-weight: 600;
   font-size: 3.5rem;
   margin-bottom: 0;
 `
@@ -38,7 +40,7 @@ const LandingBio = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <OuterContainer>
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
