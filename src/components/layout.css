@@ -9,7 +9,30 @@ body {
   font-family: "Muli", "Nunito", "Avenir", "Helvetica", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    45deg,
+    #ece1e4 1.61%,
+    #fcfcfc 1.61%,
+    #fcfcfc 50%,
+    #ece1e4 50%,
+    #ece1e4 51.61%,
+    #fcfcfc 51.61%,
+    #fcfcfc 100%
+  );
+  background-size: 43.84px 43.84px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  background-color: #fcfcfc;
+}
+
 article,
 aside,
 details,
@@ -612,7 +635,7 @@ h5::selection,
 h6::selection,
 p::selection,
 a::selection {
-  background: #d0b4bd; /* original fffa96cc */
+  background: #fffa96cc; /* original fffa96cc */
 }
 
 .gatsby-highlight {
